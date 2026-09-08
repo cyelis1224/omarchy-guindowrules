@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dagyr.guindowrules",
+  "name": "GUIndowRules",
+  "version": "1.0.0",
+  "author": "Dagyr",
+  "license": "MIT",
+  "description": "Visual editor for Hyprland window rules. Pick any application with a crosshair cursor, choose match properties, and configure layout, appearance, and behavior rules — all persisted to windowrules.lua.",
+  "kinds": ["bar-widget", "overlay"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "Panel.qml",
+    "overlay": "Picker.qml"
+  },
+  "barWidget": {
+    "displayName": "GUIndowRules",
+    "description": "Visual editor for Hyprland window rules with crosshair window picker",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
