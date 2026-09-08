@@ -61,7 +61,7 @@ omarchy-shell dagyr.guindowrules close
 Clone or link this repository into your Omarchy plugins directory:
 
 ```bash
-git clone https://github.com/cyelis1224/omarchy-guindowrules.git ~/.config/omarchy/plugins/dagyr.guindowrules
+omarchy plugin add https://github.com/cyelis1224/omarchy-guindowrules.git --enable
 omarchy-restart-shell
 ```
 
